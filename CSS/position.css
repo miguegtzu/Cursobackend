@@ -1,0 +1,65 @@
+.caja-relativa{
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    /* Posicionamiento relativo: Se mueve desde su punto de origen en el documento HTML*/
+    position: relative;
+    /* Para darle posicion al los elementos con position */
+    /* Se van a utilizar las siguientes propiedades: */
+    /* Top (eje y) */
+    /* Bottom (eje y) */
+    /* Left (eje x) */
+    /* Right (eje x) */
+    /* z-index (eje z)*/
+    top: 0px;
+    left:0px;
+    }
+    .caja-absoluta{
+        background-color: chartreuse;
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        /* La caja absoluta pierde su posicion inicial y se mueve con respecto al elemento html */
+        top: 0;
+        left: 0;
+    }
+    .caja-fija{
+        background-color: blueviolet;
+        width: 150px;
+        height: 50px;
+        /* Esta posicion queda fija mientras se desplaza por el documento HTML y al igual que absolute se mueve con respecto a la etiqueta HTML*/
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    .caja-pegajosa{
+        background-color: forestgreen;
+        width: 150px;
+        height: 50px;
+        /* Sticky no pierde su posicion inicial, una vez despues del desplazamiento llega a los valores indicados con top, bottom, left y right pierde su posicion y se quedo pegado */
+        position: sticky;
+        top: 0;
+        left: 0;
+
+    }
+    .z-index1,.z-index2,.z-index3{
+        background-color:rgb(88, 4, 4);
+        width: 150px;
+        height: 50px;
+        border: 3px solid rgb(10, 10, 10);
+        position: relative;
+    }
+
+.z-index1{
+    top: 20px;
+    left: 100px;
+    z-index: 20;
+}    
+    .z-index2{
+        z-index: 15;
+    }
+    .z-index3{
+        top: -20px;
+    left: 100px;
+    z-index: 20;
+    }

@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    background-image: url(https://www.meusdicionarios.com.br/wp-content/uploads/2019/04/sh_emojis_689892409.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(247, 117, 11);
+    text-align: center;
+}
+.parrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    color: blue;
+    text-indent: 30px;
+    line-height: 2;
+}
+#parrafoUnico{
+    font-family: fantasy;
+    text-align: justify;
+    text-indent: 50px;
+    
+}
+.fondo{
+    background-color: #9a87ac;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: rgb(5, 177, 245);
+    text-align: center;
+}
+.prueba{
+    font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+color: gray;
+letter-spacing: 5px
+}
+.caja{
+    border-style: dotted;
+    border-color: crimson;
+    padding: 30px;
+    margin: 50px;
+    width: 600px;
+    height: 200px;
+    overflow: scroll;
+
+}
+.caja h2{
+    border: 6px dotted rgb(133, 235, 16);
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding:auto;
+}
+.bloque{
+    display: block;
+}
+.linea{
+    display: inline;
+}
